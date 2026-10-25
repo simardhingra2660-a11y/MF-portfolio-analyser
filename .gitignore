@@ -1,0 +1,16 @@
+
+# Environment & Secrets (NEVER push these)
+.env
+.env.*
+
+# Financial Statements & Reports
+*.pdf
+mf_report.md
+
+# Cache & Downloaded Market Data
+mf_data/
+
+# Jupyter & Python artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
